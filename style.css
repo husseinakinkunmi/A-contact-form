@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(105, 105, 105);
+    font-family: Arial, Helvetica, sans-serif;
+}                               
+
+/* Side image */
+.container{
+    width: 800px;
+    height: 550px;
+    margin: auto;
+}
+
+.side_img{
+    width: 350px;
+    height: 550px;
+    background-image: linear-gradient(#00000086,#00000086), url(img/nicolas-i-tVTvDFkT0Vw-unsplash.jpg);
+    background-size: cover;
+    padding-left: 50px;
+    padding-top: 150px;
+}
+
+h4{
+    font-size: 15px;
+}
+
+#contact{
+    font-size: 11px;
+    text-decoration: none;
+}
+
+.contact{
+    background-color: #ffffff;
+    width: 350px;
+    height: 550px;
+}
+
+/* Message center */
+
+label,input{
+    width: 250px;
+    height: 30px;
+}
+
+span{
+    width: 250px;
+}
+
+#name{
+    width: 125px;
+    float: left;
+}
+
+label{
+    font-size: 8px;
+}
+
+input{
+    font-size: 12px;
+}
+
+input:focus{
+    outline: 0;
+}
+
+textarea{
+    width: 250px;
+}
+
+textarea:focus{
+    outline: 0;
+}
+
+.text_inputs{
+    height: 450px;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.text_inputs div{
+    display: inline;
+    width: 250px;
+    margin: auto;
+}
+
+#send{
+    font-size: 10px;   
+}
+
+#send:focus{
+    outline: 0;
+}
+
+@media(max-width:576px){
+    .container{
+        width: 400px;
+        height: 1150px;
+        margin: auto;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+}

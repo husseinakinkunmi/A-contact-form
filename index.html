@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"rel="stylesheet"
+     integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="p-4">
+    <div class="container d-flex">
+
+        <div class="side_img">
+
+            <h4 class="text-light display-7"> <img class="me-3" src="icon/location_50px.png" style="width: 15px; height: 15px;" alt=""> Address</h4>
+            <p id="contact" class="text-light display-7 ms-4">Mada center 8th floor,379 Hudson <br>
+            St, New York, NY 10018, US</p>
+
+            <br>
+
+            <h4 class="text-light display-7"> <img class="me-3" src="icon/phone_50px.png" style="width: 15px; height: 15px;" alt="">Lets Talk</h4>
+            <a href="" id="contact" class="text-success ms-4">+1 800 123456789</a>
+
+            <br><br>
+
+            <h4 class="text-light display-7"> <img class="me-3" src="icon/mail_50px.png" style="width: 15px; height: 15px;" alt="">General Support</h4>
+            <a href="" id="contact" class="text-success ms-4">contact@example.com</a>
+
+        </div>
+
+        <div class="contact pt-4">
+
+            <h5 class="text-dark fs-3 text-center">Send Us A Message</h5>
+
+            <div class="text_inputs d-flex">
+
+               <div>
+                    <label for="name" class="border border-muted p-2 text-black-1" >TELL US YOUR NAME*</label>
+                <span>
+                    <input type="text" id="name" class="text-muted p-2 border border-muted" placeholder="First name">
+                <input type="text" id="name" class="text-muted p-2 border border-muted" placeholder="Last name">
+                </span>
+            </div>
+
+                <div>
+                    <label for="email" class="border border-muted p-2 text-black-1" >ENTER YOUR EMAIL *</label>
+                    <input type="text" id="email" class="text-muted p-2 border border-muted" placeholder="contact@example.com">
+                </div>
+                
+              <div> 
+                   <label for="phone" class="border border-muted p-2 text-black-1" >ENTER YOUR PHONE NUMBER</label>
+                <input type="text" id="phone"  class="text-muted p-2 border border-muted" placeholder="Eg. +1 800 000000">
+            </div>
+
+               <div> 
+                   <label for="message" class="border border-muted p-2 text-black-1" >MESSAGE *</label>
+                <textarea name="" id="message" cols="30" rows="4" placeholder="Write us a message" class="border border-muted text-muted p-2"></textarea>
+                <button id="send" class="btn bg-success ms-5 btn-lg col-6 text-light">SEND MESSAGE</button>
+            </div>
+                
+            </div>
+
+        </div>
+
+    </div>
+</body>
+</html>
